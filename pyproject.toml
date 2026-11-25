@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "detection-rules"
+version = "0.0.1"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.1.1"]
